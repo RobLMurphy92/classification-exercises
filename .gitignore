@@ -6,3 +6,4 @@ iris.csv
 env.py
 titanic.csv 
 iris.csv.
+*.csv
