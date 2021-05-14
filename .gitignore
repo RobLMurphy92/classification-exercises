@@ -1,6 +1,8 @@
 DS_Store
 .ipynb_checkpoints/
- __pycache__
- titanic.csv
- iris.csv
+__pycache__
+titanic.csv
+iris.csv
 env.py
+titanic.csv 
+iris.csv.
