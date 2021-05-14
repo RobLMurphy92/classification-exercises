@@ -7,3 +7,8 @@ env.py
 titanic.csv 
 iris.csv.
 *.csv
+Thumbs.db
+.vscode/
+*.csv
+*.json
+*.xlsx
