@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def prep_iris(df):
     '''
     takes in a df of the iris dataset as it is acquired and returns a cleaned df
