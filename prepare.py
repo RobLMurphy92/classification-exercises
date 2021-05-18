@@ -12,7 +12,7 @@ def prep_iris(df):
     df = df.drop_duplicates()
     df = df.drop(columns = ['species_id'])
     df = df.rename(columns={"species_name": "species"})
-    dummy_species_name = pd.get_dummies(df[['species']]) 
+    dummy_species_name = pd.get_dummies(df[['species']],drop_first = True ) 
     df = pd.concat([df, dummy_species_name], axis=1)
     return df
 
