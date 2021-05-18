@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from sklearn.model_selection import train_test_split
+from sklearn.impute import SimpleImputer
+
 def prep_iris(df):
     '''
     takes in a df of the iris dataset as it is acquired and returns a cleaned df
